@@ -6,7 +6,7 @@ body {
 
 h2 {
     font-size: 24px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
@@ -21,10 +21,28 @@ h4 {
 }
 
 .jumbotron {
-    background-color: #f4511e;
+    background-color: #2C3E50;
     color: #fff;
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
+}
+
+.loh-logo {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.loh-slogan {
+    font-weight: bold !important;
+    font-style: italic;
+}
+
+.loh-logotext {
+  color:#fff;
+  text-shadow:0px 0px 32px rgba(255,255,255,0.3);
+  font-size:48px;
+  text-align:center;
 }
 
 .container-fluid {
@@ -36,12 +54,12 @@ h4 {
 }
 
 .logo-small {
-    color: #f4511e;
+    color: #2C3E50;
     font-size: 50px;
 }
 
 .logo {
-    color: #f4511e;
+    color: #2C3E50;
     font-size: 200px;
 }
 
@@ -60,15 +78,15 @@ h4 {
 .carousel-control.right,
 .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: #2C3E50;
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: #2C3E50;
 }
 
 .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: #2C3E50;
 }
 
 .item h4 {
@@ -84,7 +102,7 @@ h4 {
 }
 
 .panel {
-    border: 1px solid #f4511e;
+    border: 1px solid #2C3E50;
     border-radius: 0 !important;
     transition: box-shadow 0.5s;
 }
@@ -94,14 +112,14 @@ h4 {
 }
 
 .panel-footer .btn:hover {
-    border: 1px solid #f4511e;
+    border: 1px solid #2C3E50;
     background-color: #fff !important;
-    color: #f4511e;
+    color: #2C3E50;
 }
 
 .panel-heading {
     color: #fff !important;
-    background-color: #f4511e !important;
+    background-color: #2C3E50 !important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -125,13 +143,13 @@ h4 {
 
 .panel-footer .btn {
     margin: 15px 0;
-    background-color: #f4511e;
+    background-color: #2C3E50;
     color: #fff;
 }
 
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: #2C3E50;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -148,7 +166,7 @@ h4 {
 
 .navbar-nav li a:hover,
 .navbar-nav li.active a {
-    color: #f4511e !important;
+    color: #2C3E50 !important;
     background-color: #fff !important;
 }
 
@@ -160,7 +178,7 @@ h4 {
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: #2C3E50;
 }
 
 .slideanim {
@@ -173,6 +191,51 @@ footer .glyphicon {
     animation-duration: 1s;
     -webkit-animation-duration: 1s;
     visibility: visible;
+}
+
+.loh-btn-main {
+    background-color: #051A2F;
+    border: 1px solid #051A2F;
+}
+
+#direct-to-appstore:link, #direct-to-appstore:visited, #direct-to-appstore:hover, #direct-to-appstore:hover {
+    background: url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
+    background-size: 169px 50px;
+    width: 169px;
+    height: 50px;
+    display: inline-block;
+}
+
+.loh-intro div img {
+    width: 100%;
+    height: auto;
+}
+
+.loh-faq {
+    padding-bottom: 30px;
+}
+
+.loh-faq h2 {
+    text-align: center;
+}
+
+.loh-faq div {
+
+}
+
+.loh-faq div h3 {
+    font-size: 18px;
+    color: #2C3E50;
+    border-left: 3px solid #2C3E50;
+    padding-left: 16px;
+}
+
+.loh-faq div p {
+    color: #666666;
+}
+
+footer p {
+    color: #cecece;
 }
 
 @keyframes slide {
