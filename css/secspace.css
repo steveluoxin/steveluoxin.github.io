@@ -91,7 +91,6 @@ body {
     }
 
     .middle-text h2 {
-        text-transform: uppercase;
         font-size: 36px;
     }
 
@@ -116,7 +115,6 @@ body {
     }
 
     .middle-text h2 {
-        text-transform: uppercase;
         font-size: 36px;
     }
 
@@ -143,10 +141,15 @@ body {
 
     .middle-text h2 {
         margin-bottom: 10px;
+        font-size: 22px;
     }
 
     .middle-text h4 {
         margin: 0 0 20px;
+        font-size: 17px;
+    }
+    .middle-text p {
+        margin: -20px 0px 20px;
     }
 
     .banner {
@@ -180,23 +183,14 @@ body {
         margin-right: auto;
     }
 
-    .big-tile {
-        display: none;
-    }
-
     .loh-logotext {
         font-size: 32px;
-    }
-
-    .large-text {
-        padding: 0px 15px 20px;
     }
 }
 
 
 h2 {
     font-size: 24px;
-    /*text-transform: uppercase;*/
     color: #303030;
     font-weight: 600;
     margin-bottom: 30px;
