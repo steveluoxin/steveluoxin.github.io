@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Pindoo RSS</title>
+    <title>Pindoo RSS Reader</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Secspace, Journal, Diary, Private, Reflection, Writing">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords"
+        content="rss feed,feed reader,rss subscribe,blog reader,full text,reader view,news reader,rss detector">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/appicon.png" />
     <link rel="stylesheet" href="assets/bootstrap-3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/secspace.css">
@@ -14,79 +15,152 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <img src="assets/images/appicon.png" alt="Logo" class="loh-logo">
+    <div class="container-fluid banner">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/images/applogo.png" alt="Logo" class="loh-logo">
+                <div class="large-text">
+                    <h1 class="loh-logotext">Pindoo RSS</h1>
+                    <p class="loh-slogan">Subscribe. Read. Mark. Share.</p>
+                    <div class="">
+                        <a href="https://apps.apple.com/app/apple-store/id1500275364?pt=118617862&ct=pindu_web&mt=8"
+                            id="direct-to-appstore"></a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-
-    <div class="jumbotron text-center">
-        <h1 class="loh-logotext">Pindoo RSS</h1>
-        <p class="loh-slogan">A free and simple RSS reader</p>
-        <div class="">
-            <a href="https://apps.apple.com/app/apple-store/id1500275364?pt=118617862&ct=pindu_web&mt=8" id="direct-to-appstore"></a>
+            <div class="col-sm-6 image big-tile">
+                <img src="assets/images/tile-big.png" alt="Full text">
+            </div>
         </div>
     </div>
 
     <!-- Container (About Section) -->
-    <div id="about" class="container-fluid">
-        <div class="row loh-intro">
-            <div class="col-sm-8">
-                <h2>Pindoo RSS is a free and simple RSS reader. It can help you subscribe to your favorite blogs and websites RSS and provide a comfortable reading experience for you.</h2>
-                <h2>Features:</h2>
-                <ul class="unorder-list">
-                    <li>Automatic reader view</li>
-                    <li>Syncing via Inoreader</li>
-                    <li>Dark theme for all supported iOS</li>
-                    <li>Search multiple keywords</li>
-                    <li>Built-in RSS link detector</li>
-                    <li>Automatic cache-clearing</li>
-                </ul>
-                
+    <div id="about" class="container-fluid container-level1 bg-grey">
+        <div class="row">
+            <div class="col-sm-6 middle-text">
+                <div>
+                    <h2>Read full text</h2>
+                    <h4>Get full text from RSS feed and read offline.</h4>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <img src="assets/images/overlapped.png" alt="Secspace">
+            <div class="col-sm-6 device-frame">
+                <div class="">
+                    <img src="assets/images/fulltext.gif" alt="Full text">
+                </div>
             </div>
         </div>
     </div>
 
+    <div class="container-fluid container-level1">
+        <div class="row slideanim">
+            <div class="col-sm-6 image">
+                <img src="assets/images/chinese_layout.png" alt="Full text">
+            </div>
+            <div class="col-sm-6 middle-text">
+                <h2>Typesetting for Chinese</h2>
+                <h4>Optimized Chinese typesetting that looks like printings</h4>
+                <p><strong>This feature is powered by <a href="https://github.com/ethantw/Han">Hanzi
+                            framework</a></strong></p>
+            </div>
+        </div>
+    </div>
 
-    <footer class="container-fluid text-center bg-grey">
-        <a href="#myPage" title="To Top">
-            <span class="glyphicon glyphicon-chevron-up"></span>
-        </a>
+    <div id="" class="container-fluid container-level1 bg-grey">
+        <div class="row slideanim">
+            <div class="col-sm-6 middle-text">
+                <div>
+                    <h2>Dark mode</h2>
+                    <h4>It even darkens images.</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 image">
+                <div class="">
+                    <img src="assets/images/darkmode.png" alt="Full text">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="" class="container-fluid container-level1">
+        <div class="row slideanim">
+            <div class="col-sm-6 device-frame">
+                <div class="">
+                    <img src="assets/images/image_layout.png" alt="Full text">
+                </div>
+            </div>
+            <div class="col-sm-6 middle-text">
+                <div>
+                    <h2>Looks good with images</h2>
+                    <h4>Large images will span the screen width. Small images will float left with text wrap around it.
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="" class="container-fluid container-level1 bg-grey">
+        <div class="row slideanim">
+            <div class="col-sm-6 middle-text">
+                <div>
+                    <h2>Searching</h2>
+                    <h4>Search multiple keywords. Find things fast.</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 device-frame">
+                <div class="">
+                    <img src="assets/images/search.gif" alt="Full text">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="" class="container-fluid container-level1">
+        <div class="row slideanim">
+            <div class="col-sm-6 device-frame">
+                <div class="">
+                    <img src="assets/images/pin.gif" alt="Full text">
+                </div>
+            </div>
+            <div class="col-sm-6 middle-text">
+                <div>
+                    <h2>Feeds list</h2>
+                    <h4>Organize your feeds with pinning and folding.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Container (Services Section) -->
+    <div id="services" class="container-fluid container-level1 text-center">
+        <h2>MORE</h2>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-link logo-small"></span>
+                <h4>Built-in RSS link detector</h4>
+                <p>Enter website link, it finds RSS feed automatically</p>
+            </div>
+            <div class="col-sm-4">
+                <img class="grid-image" src="assets/images/inoreader.png" />
+                <h4>Syncs with Inoreader</h4>
+                <p>Support Local account and Inoreader</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-file logo-small"></span>
+                <h4>OPML support</h4>
+                <p>Import and export OPML file</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid container-level1 text-center bg-grey">
         <p>Copyright © 2020 Luo Xin. All Rights Reserved.</p>
     </footer>
 
     <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links in navbar + footer link
-            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
-
-                    // Store hash
-                    var hash = this.hash;
-
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function() {
-
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-
-            $(window).scroll(function() {
-                $(".slideanim").each(function() {
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $(".slideanim").each(function () {
                     var pos = $(this).offset().top;
 
                     var winTop = $(window).scrollTop();

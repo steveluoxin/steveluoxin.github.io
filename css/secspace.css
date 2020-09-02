@@ -1,8 +1,198 @@
 body {
-    font: 400 15px Lato, sans-serif;
+    font-family: -apple-system, "Helvetica Neue", "Helvetica", sans-serif;
     line-height: 1.8;
     color: #818181;
+    -webkit-text-size-adjust: 100%;
+    word-wrap: break-word !important;
 }
+
+/* .container-fluid {
+    padding: 60px 50px;
+} */
+
+.device-frame div {
+    width: 305px;
+    border-radius: 38px;
+    border: 13px solid #000000;
+    text-align: center;
+}
+
+.device-frame div img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.col-sm-6.image {
+    padding: 0;
+}
+
+.col-sm-6.image img {
+    width: 100%;
+    height: auto;
+}
+
+.middle-text {
+    text-align: center;
+}
+
+.middle-text h2 {
+    text-transform: uppercase;
+}
+
+.banner {
+    background-color: #1DA1F2;
+    color: #ffffff;
+}
+
+.large-text {
+    text-align: center;
+}
+
+.loh-logotext {
+    color: #fff;
+    text-shadow: 0px 0px 32px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 1824px) {
+    .container-level1 {
+        padding: 60px 50px;
+    }
+
+    .large-text {
+        padding: 50px 15px 20px;
+    }
+
+    .device-frame div {
+        width: 375px;
+        border-radius: 45px;
+    }
+
+    .loh-logotext {
+        font-size: 65px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 979px) {
+    .container-level1 {
+        padding: 60px 50px;
+    }
+
+    .large-text {
+        padding: 50px 15px 20px;
+    }
+
+    .device-frame div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-text h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+    }
+
+    .middle-text h4 {
+        font-size: 24px;
+    }
+
+    .loh-logotext {
+        font-size: 65px;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .container-level1 {
+        padding: 60px 50px;
+    }
+
+    .device-frame div {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-text h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+    }
+
+    .middle-text h4 {
+        font-size: 24px;
+    }
+
+    .loh-logotext {
+        font-size: 48px;
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 767px) {
+    .container-level1 {
+        padding: 20px 15px;
+    }
+    .device-frame div {
+        width: 275px;
+        border-radius: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .middle-text h2 {
+        margin-bottom: 10px;
+    }
+
+    .middle-text h4 {
+        margin: 0 0 20px;
+    }
+
+    .banner {
+        background-image: url(../assets/images/tile-small.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .big-tile {
+        display: none;
+    }
+
+    .loh-logotext {
+        font-size: 36px;
+    }
+
+    .large-text {
+        padding: 0px 15px 20px;
+    }
+}
+
+/* Landscape small phones and down */
+@media (max-width: 320px) {
+    .container-level1 {
+        padding: 20px 15px;
+    }
+    .device-frame div {
+        width: 220px;
+        border-radius: 33px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .big-tile {
+        display: none;
+    }
+
+    .loh-logotext {
+        font-size: 32px;
+    }
+
+    .large-text {
+        padding: 0px 15px 20px;
+    }
+}
+
 
 h2 {
     font-size: 24px;
@@ -26,33 +216,17 @@ h4 {
     color: #303030;
 }
 
-.jumbotron {
-    background-color: #1DA1F2;
-    color: #fff;
-    padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
-}
-
 .loh-logo {
+    display: block;
     width: 40px;
     height: 40px;
     margin: 5px;
 }
 
 .loh-slogan {
-    font-weight: bold !important;
+    font-weight: bold;
     font-style: italic;
-}
-
-.loh-logotext {
-  color:#fff;
-  text-shadow:0px 0px 32px rgba(255,255,255,0.3);
-  font-size:48px;
-  text-align:center;
-}
-
-.container-fluid {
-    padding: 60px 50px;
+    font-size: 18px;
 }
 
 .bg-grey {
@@ -155,7 +329,7 @@ h4 {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #1DA1F2;
+    background-color: rgba(255, 255, 255, 0);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -204,7 +378,10 @@ footer .glyphicon {
     border: 1px solid #051A2F;
 }
 
-#direct-to-appstore:link, #direct-to-appstore:visited, #direct-to-appstore:hover, #direct-to-appstore:hover {
+#direct-to-appstore:link,
+#direct-to-appstore:visited,
+#direct-to-appstore:hover,
+#direct-to-appstore:hover {
     background: url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
     background-size: 169px 50px;
     width: 169px;
@@ -225,9 +402,7 @@ footer .glyphicon {
     text-align: center;
 }
 
-.loh-faq div {
-
-}
+.loh-faq div {}
 
 .loh-faq div h3 {
     font-size: 18px;
@@ -249,6 +424,7 @@ footer p {
         opacity: 0;
         transform: translateY(70%);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0%);
@@ -260,6 +436,7 @@ footer p {
         opacity: 0;
         -webkit-transform: translateY(70%);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: translateY(0%);
@@ -271,6 +448,7 @@ footer p {
         text-align: center;
         margin: 25px 0;
     }
+
     .btn-lg {
         width: 100%;
         margin-bottom: 35px;
@@ -287,4 +465,11 @@ footer p {
     color: #383838;
     font-size: 18px;
     font-weight: bold;
+}
+
+.grid-image {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 7px;
 }
